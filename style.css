@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:100vw;
+    height:100vh;
+    background-color:#ACE4E3;
+}
+.block1{
+    height:100vh;
+    width:100vw;
+    background-color: #ACE4E3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+.content{
+    margin-top: 12rem;
+   
+    color:#003E29;
+    justify-content: center;
+    text-align: center;
+    row-gap:5rem;
+    animation:rotate 3s infinite alternate-reverse;
+}
+@keyframes rotate{
+    0%{
+        transform:rotateX('180deg')
+    }
+}
+#su{
+    font-size: 2.8rem;
+    
+}
+
+#date{
+    font-size: 1.5rem;
+    margin-bottom:1.5rem;
+}
+#prevent{
+    font-size: 3rem;
+    margin-left: 20rem;
+}
+.footer1{
+    margin-top:10rem;
+}
+.quote{
+    position:absolute;
+    /* border:1px solid black; */
+    margin:9rem;
+    font-size: 1.2rem;
+
+}
+#q1{
+ 
+ left:0;
+ 
+ animation:move 1s linear;    
+}
+#q2{
+  right:0;
+  animation:move 1s linear;
+
+ /* top:0;  */
+  
+}
+#q3{
+    animation:downmove 1s linear;
+ margin-top: 25rem;   
+ left:0;
+}
+#q4{
+    animation:downmove 1s linear;
+    right:0;
+    margin-top: 25rem;
+}
+@keyframes move{
+    0%{
+        bottom:-100%;
+
+    }
+    100%{
+        bottom: 80%;
+    }
+}
+@keyframes downmove{
+    0%{
+        bottom:-100%;
+
+    }
+    100%{
+        bottom: 1%;
+    }
+}
+.block2{
+    height:100vh;
+    width:100vw;
+    background-color: aqua;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+#myth{
+ font-size:1.5rem;
+ font-weight: 700;
+ width:20vw;
+}
+#suicide{
+    font-size: 3rem;
+    color:#F58BCF;
+}
+.block3{
+    height:auto;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    background-color: #0B4350;  
+}
+.box{
+    border: 1px solid #ACE4E3;
+    border-radius: 4rem;
+    width:80vw;
+    height:auto;
+    padding: 2rem;
+    margin-top: 6rem; 
+}
+
+.num{
+    font-size:8rem;
+    color:#ACE4E3;
+}
+.part2{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.head1{
+ font-size:2.5rem;
+ color: #ACE4E3;
+}
+.head2{
+    font-size:1.5rem;
+    color:#F58BCF;
+}
+#box1{
+    z-index: 1;
+}
+#box2{
+    z-index: 2;
+}
+#box3{
+    z-index: 3;
+}
+#box4{
+    z-index: 4;
+}
+#box5{
+    z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
